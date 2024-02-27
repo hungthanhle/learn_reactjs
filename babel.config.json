@@ -1,0 +1,6 @@
+{
+  "presets": [
+    "@babel/preset-env", // Biên dịch mã JavaScript sang mã tương thích với trình duyệt hiện đại
+    "@babel/preset-react" // Biên dịch mã JSX sang JavaScript thông thường
+  ]
+}
