@@ -1,6 +1,8 @@
 {
   "presets": [
-    "@babel/preset-env", // Biên dịch mã JavaScript sang mã tương thích với trình duyệt hiện đại
-    "@babel/preset-react" // Biên dịch mã JSX sang JavaScript thông thường
+      "@babel/preset-env",
+     ["@babel/preset-react", {"runtime": "automatic"}]
   ]
 }
+
+// https://stackoverflow.com/questions/32070303/uncaught-referenceerror-react-is-not-defined
